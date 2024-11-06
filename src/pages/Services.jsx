@@ -7,6 +7,7 @@ import Hero from '../components/Hero';
 import Luxury from '../components/Luxury';
 import Market from '../components/Market';
 import Marketing from '../components/Marketing';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 import Work from '../components/Work';
 
 const Services = () => {
@@ -21,6 +22,7 @@ const Services = () => {
             <Market />
             <Luxury />
             <Work />
+            <ScrollToTopButton />
             <Footer />
         </div>
     );
