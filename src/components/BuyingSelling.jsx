@@ -15,7 +15,7 @@ const BuyingSelling = () => {
     ];
 
     return (
-        <section className="mt-24 px-0 min-[900px]:px-14">
+        <section className="mt-28 px-0 min-[900px]:px-14">
             <div className="flex flex-col min-[900px]:flex-row max-w-7xl mx-auto">
                 <div className="relative bg-selling bg-cover bg-center bg-no-repeat w-full h-[600px] -z-10"></div>
                 <div className="bg-white min-[900px]:shadow-[0px_1px_4px_0px_rgba(0,0,0,0.2)] p-10 mx-auto flex flex-col justify-center">
@@ -32,7 +32,7 @@ const BuyingSelling = () => {
                     ))}
                 </div>
             </div>
-            <div className="flex flex-col-reverse min-[900px]:flex-row max-w-7xl mx-auto mt-10 min-[900px]:mt-28">
+            <div className="flex flex-col-reverse min-[900px]:flex-row max-w-7xl mx-auto mt-10 min-[900px]:mt-32">
                 <div className="bg-white min-[900px]:shadow-[0px_1px_4px_0px_rgba(0,0,0,0.2)] p-10 mx-auto flex flex-col justify-center">
                     <h1 className="text-5xl capitalize">The buying process</h1>
                     {buyingDetails.map((detail, index) => (

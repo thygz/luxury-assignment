@@ -7,7 +7,7 @@ export default function ScrollToTopButton() {
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1800) {
+            if (window.scrollY > 3500) {
                 setShowButton(true);
             } else {
                 setShowButton(false);
@@ -26,7 +26,7 @@ export default function ScrollToTopButton() {
         <div>
             {showButton && (
                 <button
-                    className="fixed bottom-10 md:bottom-10 right-8 h-14 w-14 rounded-full bg-white flex justify-center items-center shadow-[0px_1px_4px_0px_rgba(0,0,0,0.2)]"
+                    className="fixed bottom-10 right-7 h-14 w-14 rounded-full bg-white flex justify-center items-center z-10 shadow-[0px_1px_4px_0px_rgba(0,0,0,0.2)]"
                     onClick={handleScrollToTop}
                 >
                     <MdOutlineKeyboardArrowUp className="text-slate-900 text-5xl" />

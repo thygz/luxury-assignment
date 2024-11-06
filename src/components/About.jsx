@@ -4,7 +4,7 @@ import image3 from '../assets/image3.png';
 
 const About = () => {
     return (
-        <section className="mt-20 min-[900px]:mt-32 px-8 sm:px-14">
+        <section className="mt-28 min-[900px]:mt-32 px-8 sm:px-14">
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-7 lg:gap-20">
                 <img src={image1} alt="image" className="lg:w-[50%]" />
                 <div className="lg:w-[50%] flex flex-col justify-center">

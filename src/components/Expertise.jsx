@@ -2,7 +2,7 @@ const Expertise = () => {
     return (
         <section className="mt-12 lg:mt-14 px-8 sm:px-14">
             <div className="max-w-7xl mx-auto">
-                <div className="mt-24">
+                <div className="mt-32">
                     <div className="relative flex flex-col min-[900px]:flex-row justify-center items-center w-full">
                         <h1 className="absolute inset-0 flex items-center justify-center text-4xl sm:text-5xl text-white z-10">
                             Decor Guidance
