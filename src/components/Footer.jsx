@@ -109,14 +109,16 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[3.5rem] flex flex-col lg:flex-row gap-2 lg:gap-10">
-                <p className="text-2xl">
+            <div className="mt-[3.5rem] flex flex-col md:flex-row gap-2 lg:gap-10">
+                <p className="text-2xl w-full md:w-3/6">
                     Website Designed & Developed by{' '}
                     <span className="underline underline-offset-8 decoration-1 cursor-pointer hover:no-underline hover:text-[#525252] transition duration-300 ease-out">
                         Luxury Presence
                     </span>
                 </p>
-                <p className="text-2xl">Copyright 2024 | Privacy Policy</p>
+                <p className="text-2xl w-full md:w-3/6 pl-0 md:pl-20 xl:pl-28">
+                    Copyright 2024 | Privacy Policy
+                </p>
             </div>
         </section>
     );
