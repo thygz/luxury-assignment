@@ -1,4 +1,4 @@
-import marketingImage from '../assets/marketing-image2.png';
+import marketingImage from '../assets/marketing-image.png';
 import responsiveImage from '../assets/responsive.png';
 import syndicationImage from '../assets/syndication.png';
 import virtualImage from '../assets/virtual.png';
@@ -33,28 +33,28 @@ const Marketing = () => {
     ];
 
     return (
-        <section className="mt-12 lg:mt-14 px-8 sm:px-14">
+        <section className="pt-12 lg:pt-14 px-8 sm:px-14">
             <div className="max-w-7xl mx-auto">
-                <div className="relative flex flex-col-reverse lg:flex-row gap-24 sm:gap-36 lg:gap-0 justify-center lg:justify-end items-center -z-10">
+                <div className="relative max-w-5xl mx-auto flex flex-col-reverse lg:flex-row gap-24 sm:gap-36 lg:gap-0 justify-center lg:justify-end items-center -z-10">
                     <img
                         src={marketingImage}
                         alt="marketing-image"
                         className="w-full lg:w-[75%]"
                     />
                     <div className="relative lg:absolute my-auto lg:left-0">
-                        <h1 className="text-black text-5xl sm:text-7xl lg:text-6xl xl:text-[5rem] font-semibold">
+                        <h1 className="text-black text-5xl sm:text-7xl lg:text-6xl xl:text-7xl font-semibold">
                             Comprehensive
                         </h1>
-                        <h1 className="text-black text-5xl sm:text-7xl lg:text-6xl xl:text-[5rem] font-semibold mt-2">
+                        <h1 className="text-black text-5xl sm:text-7xl lg:text-6xl xl:text-7xl font-semibold mt-2">
                             Marketing
                         </h1>
-                        <h1 className="text-black text-5xl sm:text-7xl lg:text-6xl xl:text-[5rem] font-semibold mt-2">
+                        <h1 className="text-black text-5xl sm:text-7xl lg:text-6xl xl:text-7xl font-semibold mt-2">
                             Plan
                         </h1>
                         <img
                             src={logoDark}
                             alt="logo-dark"
-                            className="absolute w-48 sm:w-auto lg:w-52 xl:w-auto -bottom-12 sm:-bottom-20 left-24 sm:left-36 lg:left-1 xl:left-4 opacity-5"
+                            className="absolute w-48 sm:w-auto lg:w-52 xl:w-64 -bottom-12 sm:-bottom-20 left-24 sm:left-36 lg:left-4 xl:-left-1 opacity-5"
                         />
                     </div>
                 </div>
@@ -63,14 +63,14 @@ const Marketing = () => {
                         {marketingServices.map((item, index) => (
                             <div
                                 key={index}
-                                className="flex flex-col justify-center items-center p-5 shadow-[0px_1px_4px_0px_rgba(0,0,0,0.2)]"
+                                className="flex flex-col justify-center items-center p-5"
                             >
                                 <img
                                     src={item.image}
                                     alt="service-image"
-                                    className="w-28"
+                                    className="w-32"
                                 />
-                                <h1 className="text-3xl mt-1 font-crimson">
+                                <h1 className="text-3xl font-crimson">
                                     {item.title}
                                 </h1>
                                 <p className="text-xl sm:text-lg text-center mt-3 font-crimson font-medium text-slate-600">

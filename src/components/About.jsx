@@ -8,10 +8,10 @@ const About = () => {
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-7 lg:gap-20">
                 <img src={image1} alt="image" className="lg:w-[50%]" />
                 <div className="lg:w-[50%] flex flex-col justify-center">
-                    <h1 className="text-4xl font-medium">
+                    <h1 className="text-3xl sm:text-4xl font-medium">
                         Over 33 Years of Real Estate Success
                     </h1>
-                    <p className="text-xl font-crimson font-medium text-slate-600 mt-6 lg:mt-8">
+                    <p className="text-xl font-crimson font-medium text-slate-600 mt-4">
                         We provide every one of our clients with a level of
                         service they won’t find anywhere else. We give them what
                         they need, often before they know they need it.
@@ -24,10 +24,10 @@ const About = () => {
             </div>
             <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row gap-7 lg:gap-20 mt-24">
                 <div className="lg:w-[50%] flex flex-col justify-center">
-                    <h1 className="text-4xl font-medium">
+                    <h1 className="text-3xl sm:text-4xl font-medium">
                         We Want To Create An Unforgettable Experience For You...
                     </h1>
-                    <p className="text-xl font-crimson font-medium text-slate-600 mt-6 lg:mt-8">
+                    <p className="text-xl font-crimson font-medium text-slate-600 mt-4">
                         We combine data gained from your home’s Comparative
                         Market Analysis with local market research to create a
                         marketing plan designed to help you meet your selling
@@ -44,10 +44,10 @@ const About = () => {
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-7 lg:gap-20 mt-24">
                 <img src={image3} alt="image" className="lg:w-[50%] my-auto" />
                 <div className="lg:w-[50%] flex flex-col justify-center">
-                    <h1 className="text-4xl font-medium">
+                    <h1 className="text-3xl sm:text-4xl font-medium">
                         The Hansen Partners Communications Tablet
                     </h1>
-                    <div className="text-xl font-crimson font-medium text-slate-600 mt-6">
+                    <div className="text-xl font-crimson font-medium text-slate-600 mt-4">
                         <p>
                             We have created this as a wonderful tool so that we
                             can communicate with you daily, provide you with

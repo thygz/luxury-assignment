@@ -4,7 +4,7 @@ const Market = () => {
     return (
         <section className="mt-20 min-[900px]:mt-32">
             <div className="flex flex-col justify-center items-center text-center max-w-7xl mx-auto px-8 sm:px-14">
-                <h1 className="text-4xl font-medium">
+                <h1 className="text-4xl lg:text-5xl font-medium">
                     We Market Your Home to The World
                 </h1>
                 <p className="text-2xl font-crimson mt-6 lg:mt-8">
@@ -59,7 +59,7 @@ const Market = () => {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#525252] bg-opacity-10 mt-12 min-[900px]:mt-14 w-full flex justify-center items-center">
+            <div className="bg-[#525252] bg-opacity-10 mt-24 min-[900px]:mt-28 w-full flex justify-center items-center">
                 <img
                     src={logo1}
                     alt="logo-image"

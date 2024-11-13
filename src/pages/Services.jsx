@@ -9,16 +9,27 @@ import Market from '../components/Market';
 import Marketing from '../components/Marketing';
 import ScrollToTopButton from '../components/ScrollToTopButton';
 import Work from '../components/Work';
+import { useState } from 'react';
 
 const Services = () => {
+    const [scrollBackwards, setScrollBackwards] = useState(false);
+    const [scrollAppointment, setScrollAppointment] = useState(false);
+
     return (
         <div>
-            <Header />
-            <Hero />
+            <Header
+                scrollBackwards={scrollBackwards}
+                setScrollBackwards={setScrollBackwards}
+            />
+            <Hero
+                scrollBackwards={scrollBackwards}
+                scrollAppointment={scrollAppointment}
+                setScrollAppointment={setScrollAppointment}
+            />
             <Marketing />
-            <About />
             <Expertise />
             <BuyingSelling />
+            <About />
             <Market />
             <Luxury />
             <Work />
