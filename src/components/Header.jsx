@@ -102,7 +102,7 @@ const Header = ({ scrollBackwards, setScrollBackwards }) => {
                 </div>
             </header>
             <header
-                className={`fixed right-0 left-0 bg-[#1a1a1a] transition-all duration-300 ease-in z-50 ${
+                className={`fixed right-0 left-0 bg-[#1a1a1a] transition-all duration-200 ease-linear z-50 ${
                     scrollBackwards ? 'top-0' : 'top-[-100px]'
                 }`}
             >

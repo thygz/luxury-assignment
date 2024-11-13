@@ -41,9 +41,13 @@ const Hero = ({ scrollBackwards, scrollAppointment, setScrollAppointment }) => {
                 </div>
             </div>
             <div
-                className={`bg-[#525252] h-[59px] font-semibold flex justify-between items-center px-5 min-[770px]:px-10 z-20 transition-all duration-300 ease-linear fixed right-0 left-0 ${
+                className={`bg-[#525252] h-[59px] font-semibold flex justify-between items-center px-5 min-[770px]:px-10 z-20 transition-all duration-200 ease-linear fixed right-0 left-0 ${
                     scrollAppointment ? `top-0` : 'top-[-59px]'
-                } ${scrollBackwards && 'top-[100px]'}`}
+                } ${
+                    scrollBackwards && scrollAppointment
+                        ? 'top-[100px]'
+                        : 'top-0'
+                }`}
             >
                 <div className="flex justify-center items-center gap-4 ml-7 md:ml-16 lg:ml-20 xl:ml-32 mt-[2px]">
                     <FaSearch className="text-base text-white text-opacity-90" />
