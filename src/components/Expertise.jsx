@@ -13,7 +13,7 @@ const Expertise = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-center mt-8 sm:mt-10">
-                        <h1 className="text-5xl">My Staging Expertise</h1>
+                        <h1 className="text-[2.5rem]">My Staging Expertise</h1>
                         <ul className="mt-8 text-xl font-crimson text-slate-600 flex flex-col gap-5">
                             <li>- Unclutter and organize your home</li>
                             <li>- Neatly arrange drawers and cabinets</li>
@@ -35,7 +35,7 @@ const Expertise = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center items-center mt-8 sm:mt-10">
-                        <h1 className="text-5xl">My Staging Expertise</h1>
+                        <h1 className="text-[2.5rem]">My Staging Expertise</h1>
                         <ul className="mt-8 text-xl font-crimson text-slate-600 flex flex-col gap-5">
                             <li>- Unclutter and organize your home</li>
                             <li>- Neatly arrange drawers and cabinets</li>
